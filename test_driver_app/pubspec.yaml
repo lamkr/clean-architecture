@@ -1,6 +1,6 @@
-name: clean_architecture
-description: Clean Architecture service template for your Microservice with DDD, TDD and SOLID using Dart. The components are independent and testable, the architecture is evolutionary in multiple dimensions. Based in https://github.com/ivanpaulovich/clean-architecture-manga
-version: 0.0.1
+name: clean_architecture_app_test
+description: A Flutter project to test the Clean Architecture package.
+version: 1.0.0+1
 homepage: https://www.github.com/flutuate/clean_architecture
 author: Luciano Bonifacio Rodrigues <flutuate.io@gmail.com>
 
@@ -12,6 +12,9 @@ dependencies:
     sdk: flutter
   flutter_localizations:
     sdk: flutter
+  cupertino_icons: ^0.1.2
+  clean_architecture:
+    path: ../
 
 dev_dependencies:
   flutter_test:

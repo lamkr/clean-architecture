@@ -1,8 +1,5 @@
-/// Support for doing something awesome.
-///
-/// More dartdocs go here.
 library clean_architecture;
 
-export 'src/clean_architecture_base.dart';
-
-// TODO: Export any libraries intended for clients of this package.
+export 'package:clean_architecture/application.dart';
+export 'package:clean_architecture/di.dart';
+export 'package:clean_architecture/log.dart';

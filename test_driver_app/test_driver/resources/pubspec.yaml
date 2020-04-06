@@ -1,0 +1,30 @@
+name: clean_architecture_app_test
+description: A Flutter project to test the Clean Architecture package.
+version: 1.0.0+1
+homepage: https://www.github.com/flutuate/clean_architecture
+author: Luciano Bonifacio Rodrigues <flutuate.io@gmail.com>
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^0.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_driver:
+    sdk: flutter
+  test: ^1.0.0
+  pedantic: ^1.0.0
+  meta: ^1.1.6
+  simply_injector: ^0.1.4
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - test/res/test.json
+    - test/res/test.text

@@ -1,0 +1,9 @@
+{
+  "integer": 1234,
+  "string": "Lorem ipsum dolor sit amet",
+  "double": 13579.02468,
+  "user": {
+    "id": 13579,
+    "name": "João Smith"
+  }
+}
